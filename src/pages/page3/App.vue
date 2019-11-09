@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-    <p>page 2</p>
+    <p>page 3</p>
     <img src="../../assets/logo.png">
-    <Header></Header>
+    <HelloWorld/>
   </div>
 </template>
 
 <script>
 import HelloWorld from '../../components/HelloWorld'
-import Header from '../../components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Header
+    HelloWorld
   }
 }
 </script>

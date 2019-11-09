@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <p>page 2</p>
-    <img src="../../assets/logo.png">
+    <p>首页</p>
     <Header></Header>
   </div>
 </template>

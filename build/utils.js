@@ -28,7 +28,7 @@ exports.entries = function () {
 
 // 多页面输出配置
 exports.htmlPlugin = function () {
-  let entryHtml = glob.sync(PAGE_PATH + '/*/*.ejs')
+  let entryHtml = glob.sync(PAGE_PATH + '/*/*.html')
   let arr = []
   entryHtml.forEach((filePath) => {
     let pathArry = filePath.split('/')
